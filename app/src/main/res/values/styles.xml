@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item><item name="android:colorAccent">#61548A</item>
+        <item name="android:windowBackground">#FAF8F3</item><item name="android:statusBarColor">#FAF8F3</item><item name="android:navigationBarColor">#FAF8F3</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="CardTheme" parent="@android:style/Theme.Material.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item><item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:backgroundDimAmount">0.32</item><item name="android:colorAccent">#61548A</item>
+        <item name="android:windowMinWidthMinor">90%</item><item name="android:windowMinWidthMajor">62%</item>
+    </style>
+</resources>
